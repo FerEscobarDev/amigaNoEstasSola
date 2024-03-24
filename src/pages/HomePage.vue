@@ -6,21 +6,21 @@
                 <div class="absolute top-0 w-full h-full bg-center bg-cover" 
                     style="background-image: url('http://localhost:5173/src/assets/img/fondoWeb.png');"
                 >
-                    <span id="blackOverlay" class="w-full h-full absolute opacity-75 bg-black"></span>
+                    <span id="blackOverlay" class="w-full h-full absolute opacity-75 bg-[#6450a1]"></span>
                 </div>
-                <div class="container relative mx-auto">
+                <div class="container relative mx-auto my-5">
                     <div class="items-center flex flex-wrap">
                         <div class="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
-                            <div class="pr-12">
-                                <h1 class="font-semibold text-4xl text-[#6450a1]">
+                            <div class="flex justify-center items-center">
+                                <!-- <h1 class="font-semibold text-4xl text-[#6450a1]">
                                     Fundación Amiga No Estás Sola
-                                </h1>
+                                </h1> -->
                                 <!-- <p class="mt-4 text-lg text-slate-200">
                                     This is a simple example of a Landing Page you can build using
                                     Vue Notus. It features multiple CSS components based on the
                                     Tailwind CSS design system.
                                 </p> -->
-                                <img :src="logo" alt="amiga no estás sola">
+                                <img class=" md:w-[65%]  lg:w-[100%]" :src="logo" alt="amiga no estás sola">
                             </div>
                         </div>
                     </div>
@@ -42,13 +42,18 @@
                                 class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
                                 <div class="px-4 py-5 flex-auto">
                                     <div
-                                        class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-red-400">
+                                        class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-[#482c74]">
                                         <i class="fas fa-user-nurse"></i>
                                     </div>
-                                    <h6 class="text-xl font-semibold">Mision</h6>
+                                    <h6 class="text-xl font-semibold text-[#fec55a]">Mision</h6>
                                     <p class="mt-2 mb-4 text-slate-500">
-                                        Divide details about your product or agency work into parts.
-                                        A paragraph describing a feature will be enough.
+                                        Empoderar a las mujeres mediante el acceso a educación, 
+                                        emprendimiento y salud mental. Nos comprometemos a brindar un espacio 
+                                        seguro y de apoyo, donde las mujeres puedan aprender, crecer y fortalecerse 
+                                        emocionalmente. A través de alianzas estratégicas, buscamos proporcionar 
+                                        oportunidades educativas, fomentar el emprendimiento y promover el bienestar 
+                                        mental, inspirando así un cambio positivo en la vida de cada mujer que se 
+                                        une a nuestra comunidad.
                                     </p>
                                 </div>
                             </div>
@@ -59,13 +64,18 @@
                                 class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
                                 <div class="px-4 py-5 flex-auto">
                                     <div
-                                        class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-sky-400">
+                                        class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-[#482c74]">
                                         <i class="fas fa-retweet"></i>
                                     </div>
-                                    <h6 class="text-xl font-semibold">Vision</h6>
+                                    <h6 class="text-xl font-semibold text-[#fec55a]">Vision</h6>
                                     <p class="mt-2 mb-4 text-slate-500">
-                                        Keep you user engaged by providing meaningful information.
-                                        Remember that by this time, the user is curious.
+                                        Ser líderes en la transformación positiva de la vida de las mujeres. 
+                                        Visualizamos un futuro donde cada mujer tenga acceso equitativo a la educación, 
+                                        oportunidades de emprendimiento y servicios de salud mental. Buscamos crear una 
+                                        red sólida de mujeres empoderadas que inspiren y apoyen a otras, construyendo 
+                                        juntas una sociedad donde la igualdad, la autoestima y el bienestar sean fundamentales. 
+                                        Nuestra visión es ser agentes de cambio, marcando el camino hacia un futuro más brillante 
+                                        y solidario para todas las mujeres en Colombia.
                                     </p>
                                 </div>
                             </div>
@@ -76,13 +86,21 @@
                                 class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
                                 <div class="px-4 py-5 flex-auto">
                                     <div
-                                        class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-emerald-400">
+                                        class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-[#482c74]">
                                         <i class="fas fa-fingerprint"></i>
                                     </div>
-                                    <h6 class="text-xl font-semibold">Somos</h6>
-                                    <p class="mt-2 mb-4 text-slate-500">
-                                        Write a few lines about each one. A paragraph describing a
-                                        feature will be enough. Keep you user engaged!
+                                    <h6 class="text-xl font-semibold text-[#fec55a]">Valores</h6>
+                                    <p class="mt-2 mb-4 text-slate-500 text-center">
+                                        <span class="text-[#6450a1] font-semibold text-md">Empatía:</span> Comprender y sentir con sinceridad las experiencias y 
+                                        emociones de las mujeres.
+                                        <br>
+                                        <span class="text-[#6450a1] font-semibold text-md">Empoderamiento:</span> Capacitar a las mujeres para reconocer su valor y potencial.
+                                        <br>
+                                        <span class="text-[#6450a1] font-semibold text-md">Respeto:</span> Valorar la diversidad, promoviendo un ambiente de respeto mutuo 
+                                        y dignidad.
+                                    </p>
+                                    <p class="mt-2 mb-4 text-slate-500 text-pretty">
+                                        Estos valores guían el trabajo y la cultura de la fundación, enfocando en su misión y visión.
                                     </p>
                                 </div>
                             </div>
@@ -149,7 +167,7 @@
                     </svg>
                 </div>
 
-                <div class="container mx-auto px-4">
+                <!-- <div class="container mx-auto px-4">
                     <div class="items-center flex flex-wrap">
                         <div class="w-full md:w-4/12 ml-auto mr-auto px-4">
                             <img alt="..." class="max-w-full rounded-lg shadow-lg"
@@ -213,30 +231,42 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> -->
             </section>
 
-            <section class="pt-20 pb-48">
+            <section class=" pb-48">
                 <div class="container mx-auto px-4">
                     <div class="flex flex-wrap justify-center mb-24">
                         <div class="w-full  px-4">
-                            <h2 class="text-4xl font-semibold text-center">Liderazgo</h2>
-                            <p class="text-lg leading-relaxed m-4 text-slate-500 text-balance">
-                                Te presentamos a los líderes y fundadores comprometidos 
-                                con nuestra misión de brindar apoyo integral a todas las mujeres que han sido 
-                                víctimas de maltrato físico y psicológico, abuso sexualy otras formas de violencia de género.
+                            <h2 class="text-4xl font-semibold text-center text-[#482c74]">Historia</h2>
+                            <p class="text-lg leading-relaxed m-4 text-slate-500 text-pretty">
+                                Soy Erika Caro, psicóloga y creadora de "Amiga No Estás Sola". 
+                                Quiero contarte cómo empezó este sueño que se ha convertido en un propósito muy importante en mi vida.
+
                             </p>
-                            <p class="text-lg leading-relaxed m-4 text-slate-500 text-balance">
-                                Nuestro equipo de líderes está dedicado a ofrecer un espacio seguro y solidario para 
-                                las mujeres que necesitan ayuda y orientación. A través de charlas, actividades, 
-                                capacitaciones y terapia psicológica grupal e individual, trabajamos incansablemente 
-                                para empoderar a las mujeres, ayudarles a sanar y reconstruir sus vidas.
+                            <p class="text-lg leading-relaxed m-4 text-slate-500 text-pretty">
+                                En enero de 2022, nació "Amiga No Estás Sola" como un grupo de apoyo 100% virtual, creado con seis mujeres. 
+                                La idea surgió de la necesidad que observé en familiares y amigas de poder expresar sus emociones y sensaciones 
+                                respecto a la violencia en pareja y otros tipos de violencia que habían experimentado. Fue entonces cuando decidí 
+                                crear un grupo de WhatsApp y comenzar a organizar talleres virtuales de una hora cada semana.
+
                             </p>
-                            <p class="text-lg leading-relaxed m-4 text-slate-500 text-balance">  
-                                Conoce a las personas detrás de nuestra misión y descubre cómo están 
-                                comprometidas a hacer una diferencia tangible en la vida de quienes más 
-                                lo necesitan. Juntos, estamos aquí para decirte que no estás sola y que 
-                                juntas podemos crear un futuro más seguro y equitativo para todas las mujeres.
+                            <p class="text-lg leading-relaxed m-4 text-slate-500 text-pretty">  
+                                Con el tiempo, este modesto grupo comenzó a crecer y a ganar impulso. Me di cuenta de que para ofrecer un apoyo
+                                 más completo y variado, necesitábamos la contribución de profesionales en diferentes campos. Así que empecé a 
+                                 invitar a colegas psicólogos y otros profesionales, quienes generosamente donaron una hora de su tiempo para 
+                                 enseñar sobre diversos temas necesarios para el empoderamiento femenino.
+
+                            </p>
+                            <p class="text-lg leading-relaxed m-4 text-slate-500 text-pretty">
+                                Hoy, en 2024, "Amiga No Estás Sola" ha crecido exponencialmente, contando con más de 240 integrantes procedentes de Colombia, 
+                                México, Ecuador, Perú, Argentina, Venezuela y Chile. Nuestra comunidad se ha convertido en un espacio donde las mujeres encuentran 
+                                acompañamiento, educación y apoyo mutuo en su camino hacia la recuperación y el empoderamiento.
+                            </p>
+                            <p class="text-lg leading-relaxed m-4 text-slate-500 text-pretty">
+                                Nuestro lema es "Enciende tu fuego, emerge poderosa", y refleja nuestra convicción de que cada mujer tiene dentro de sí la fuerza y 
+                                la capacidad para transformar su vida. Estamos aquí para decirles que no están solas y que, juntas, podemos aprender, crecer y 
+                                construir un futuro más brillante y equitativo para todas.
                             </p>
                         </div>
                     </div>
@@ -484,7 +514,7 @@ import erika from "../assets/img/erika.png";
 import team2 from "../assets/img/team-2-800x800.jpg";
 import team3 from "../assets/img/team-3-800x800.jpg";
 import team4 from "../assets/img/team-4-470x470.png";
-import logo from "../assets/img/AMIGA_BLANCO.png";
+import logo from "../assets/img/AMIGA_FULL_COLOR.png";
 
 export default defineComponent({
     data() {
