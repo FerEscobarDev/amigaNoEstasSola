@@ -1,4 +1,4 @@
-<template>
+<!-- <template>
   <div
     class="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded"
   >
@@ -21,9 +21,9 @@
     </div>
   </div>
 </template>
-<script>
+<script lang="ts">
 import Chart from "chart.js";
-export default {
+export default defineComponent({
   mounted: function () {
     this.$nextTick(function () {
       let config = {
@@ -122,5 +122,5 @@ export default {
       window.myBar = new Chart(ctx, config);
     });
   },
-};
-</script>
+});
+</script> -->

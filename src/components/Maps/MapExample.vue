@@ -1,4 +1,4 @@
-<template>
+<!-- <template>
   <div
     id="map-canvas"
     class="relative w-full rounded h-600-px"
@@ -6,8 +6,8 @@
     data-lng="-73.985428"
   ></div>
 </template>
-<script>
-export default {
+<script lang="ts">
+export default defineComponent({
   mounted() {
     let google = window.google;
     let map = document.getElementById("map-canvas");
@@ -85,5 +85,5 @@ export default {
       infowindow.open(map, marker);
     });
   },
-};
-</script>
+});
+</script> -->

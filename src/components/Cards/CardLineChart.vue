@@ -1,4 +1,4 @@
-<template>
+<!-- <template>
   <div
     class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded bg-slate-700"
   >
@@ -15,17 +15,17 @@
       </div>
     </div>
     <div class="p-4 flex-auto">
-      <!-- Chart -->
+      Chart 
       <div class="relative h-350-px">
         <canvas id="line-chart"></canvas>
       </div>
     </div>
   </div>
 </template>
-<script>
+<script lang="ts">
 import Chart from "chart.js";
 
-export default {
+export default defineComponent({
   mounted: function () {
     this.$nextTick(function () {
       var config = {
@@ -132,5 +132,5 @@ export default {
       window.myLine = new Chart(ctx, config);
     });
   },
-};
-</script>
+});
+</script> -->

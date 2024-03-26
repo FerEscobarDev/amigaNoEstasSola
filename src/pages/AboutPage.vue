@@ -4,7 +4,7 @@
         <main>
             <div class="relative pt-16 pb-32 flex content-center items-center justify-center min-h-screen-75">
                 <div class="absolute top-0 w-full h-full bg-center bg-cover" 
-                    style="background-image: url('http://localhost:5173/src/assets/img/fondoWeb.png');"
+                    :style="`background-image: url(${fondoWeb});`"
                 >
                     <span id="blackOverlay" class="w-full h-full absolute opacity-75 bg-[#6450a1]"></span>
                 </div>
@@ -55,21 +55,27 @@
                                                 Psicóloga y Fundadora
                                             </p>
                                             <div class="mt-6">
-                                                <button
-                                                    class="bg-rose-500 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                                                    type="button">
-                                                    <i class="fab fa-instagram"></i>
-                                                </button>
-                                                <button
-                                                    class="bg-sky-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                                                    type="button">
-                                                    <i class="fab fa-facebook-f"></i>
-                                                </button>
-                                                <button
-                                                    class="bg-blue-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                                                    type="button">
-                                                    <i class="fas fa-globe"></i>
-                                                </button>
+                                                <a href="https://www.instagram.com/psic.erikacaro?igsh=MTA0Mnlic3c4dXdlMw==" target="_blank">                                                    
+                                                    <button
+                                                        class="bg-rose-500 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                                                        type="button">
+                                                        <i class="fab fa-instagram"></i>
+                                                    </button>
+                                                </a>
+                                                <a href="https://www.facebook.com/profile.php?id=61552588447493" target="_blank">
+                                                    <button
+                                                        class="bg-sky-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                                                        type="button">
+                                                        <i class="fab fa-facebook-f"></i>
+                                                    </button>
+                                                </a>
+                                                <a href="https://erikacaropsicologa.com" target="_blank">
+                                                    <button
+                                                        class="bg-blue-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                                                        type="button">
+                                                        <i class="fas fa-globe"></i>
+                                                    </button>
+                                                </a>
                                             </div>
                                         </div>
                                     </div>
@@ -95,8 +101,8 @@
                                 class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
                                 <div class="px-4 py-5 flex-auto">
                                     <div
-                                        class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-[#482c74]">
-                                        <i class="fas fa-user-nurse"></i>
+                                        class="text-white  text-center inline-flex items-center justify-center w-16 h-16 mb-5 shadow-lg rounded-full bg-[#482c74]">
+                                        <img class="w-14" :src="logo" alt="amiga no estás sola">
                                     </div>
                                     <h6 class="text-xl font-semibold text-[#fec55a]">Mision</h6>
                                     <p class="mt-2 mb-4 text-slate-500">
@@ -117,8 +123,8 @@
                                 class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
                                 <div class="px-4 py-5 flex-auto">
                                     <div
-                                        class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-[#482c74]">
-                                        <i class="fas fa-retweet"></i>
+                                        class="text-white  text-center inline-flex items-center justify-center w-16 h-16 mb-5 shadow-lg rounded-full bg-[#482c74]">
+                                        <img class="w-14" :src="logo" alt="amiga no estás sola">
                                     </div>
                                     <h6 class="text-xl font-semibold text-[#fec55a]">Vision</h6>
                                     <p class="mt-2 mb-4 text-slate-500">
@@ -139,8 +145,8 @@
                                 class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
                                 <div class="px-4 py-5 flex-auto">
                                     <div
-                                        class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-[#482c74]">
-                                        <i class="fas fa-fingerprint"></i>
+                                        class="text-white  text-center inline-flex items-center justify-center w-16 h-16 mb-5 shadow-lg rounded-full bg-[#482c74]">
+                                        <img class="w-14" :src="logo" alt="amiga no estás sola">
                                     </div>
                                     <h6 class="text-xl font-semibold text-[#fec55a]">Valores</h6>
                                     <p class="mt-2 mb-4 text-slate-500 text-center">
@@ -567,7 +573,8 @@ import erika from "../assets/img/erika.png";
 import team2 from "../assets/img/team-2-800x800.jpg";
 import team3 from "../assets/img/team-3-800x800.jpg";
 import team4 from "../assets/img/team-4-470x470.png";
-import logo from "../assets/img/AMIGA_FULL_COLOR.png";
+import logo from "../assets/img/AMIGA_BLANCO.png";
+import fondoWeb from "../assets/img/fondoWeb.png";
 
 export default defineComponent({
     data() {
@@ -576,7 +583,8 @@ export default defineComponent({
             team2,
             team3,
             team4,
-            logo
+            logo,
+            fondoWeb
         };
     },
     components: {

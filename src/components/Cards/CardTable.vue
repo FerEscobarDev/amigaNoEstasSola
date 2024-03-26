@@ -1,4 +1,4 @@
-<template>
+<!-- <template>
   <div
     class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded"
     :class="[color === 'light' ? 'bg-white' : 'bg-emerald-900 text-white']"
@@ -16,7 +16,7 @@
       </div>
     </div>
     <div class="block w-full overflow-x-auto">
-      <!-- Projects table -->
+       Projects table 
       <table class="items-center w-full bg-transparent border-collapse">
         <thead>
           <tr>
@@ -473,7 +473,7 @@
     </div>
   </div>
 </template>
-<script>
+<script lang="ts">
 import TableDropdown from "@/components/Dropdowns/TableDropdown.vue";
 
 import bootstrap from "@/assets/img/bootstrap.jpg";
@@ -487,7 +487,7 @@ import team2 from "@/assets/img/team-2-800x800.jpg";
 import team3 from "@/assets/img/team-3-800x800.jpg";
 import team4 from "@/assets/img/team-4-470x470.png";
 
-export default {
+export default defineComponent({
   data() {
     return {
       bootstrap,
@@ -513,5 +513,5 @@ export default {
       },
     },
   },
-};
-</script>
+});
+</script> -->

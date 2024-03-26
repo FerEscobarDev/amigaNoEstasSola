@@ -1,4 +1,4 @@
-<template>
+<!-- <template>
   <div
     class="relative flex flex-col min-w-0 break-words bg-white rounded mb-6 xl:mb-0 shadow-lg"
   >
@@ -35,8 +35,8 @@
     </div>
   </div>
 </template>
-<script>
-export default {
+<script lang="ts">
+export default defineComponent({
   name: "card-stats",
   props: {
     statSubtitle: {
@@ -79,5 +79,5 @@ export default {
       default: "bg-red-500",
     },
   },
-};
-</script>
+});
+</script> -->

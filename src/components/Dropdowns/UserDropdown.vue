@@ -1,4 +1,4 @@
-<template>
+<!-- <template>
   <div>
     <a
       class="text-slate-500 block"
@@ -55,12 +55,12 @@
   </div>
 </template>
 
-<script>
+<script lang="ts">
 import { createPopper } from "@popperjs/core";
 
 import image from "@/assets/img/team-1-800x800.jpg";
 
-export default {
+export default defineComponent({
   data() {
     return {
       dropdownPopoverShow: false,
@@ -80,5 +80,5 @@ export default {
       }
     },
   },
-};
-</script>
+});
+</script> -->

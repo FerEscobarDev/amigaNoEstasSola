@@ -1,4 +1,4 @@
-<template>
+<!-- <template>
   <div>
     <a
       class="hover:text-slate-500 text-slate-700 px-3 py-2 flex items-center text-xs uppercase font-bold"
@@ -107,4 +107,4 @@ export default {
     },
   },
 };
-</script>
+</script> -->

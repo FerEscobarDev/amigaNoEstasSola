@@ -1,4 +1,4 @@
-<template>
+<!-- <template>
   <div
     class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-slate-100 border-0"
   >
@@ -178,4 +178,4 @@
       </form>
     </div>
   </div>
-</template>
+</template> -->

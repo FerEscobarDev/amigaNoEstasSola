@@ -1,4 +1,4 @@
-<template>
+<!-- <template>
     <footer class="pb-6" :class="[
         absolute ? 'absolute w-full bottom-0 bg-slate-800' : 'relative',
     ]">
@@ -14,7 +14,7 @@
                         </a>
                     </div>
                 </div>
-                <!-- <div class="w-full md:w-8/12 px-4">
+                <div class="w-full md:w-8/12 px-4">
                     <ul class="flex flex-wrap list-none md:justify-end justify-center">
                         <li>
                             <a href="https://www.creative-tim.com?ref=vn-footer-small"
@@ -41,7 +41,7 @@
                             </a>
                         </li>
                     </ul>
-                </div> -->
+                </div>
             </div>
         </div>
     </footer>
@@ -63,4 +63,4 @@ export default defineComponent({
         },
     },
 });
-</script>
+</script> -->

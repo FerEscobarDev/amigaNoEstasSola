@@ -1,4 +1,4 @@
-<template>
+<!-- <template>
   <div>
     <a
       class="text-slate-500 py-1 px-3"
@@ -37,10 +37,10 @@
     </div>
   </div>
 </template>
-<script>
+<script lang="ts">
 import { createPopper } from "@popperjs/core";
 
-export default {
+export default defineComponent({
   data() {
     return {
       dropdownPopoverShow: false,
@@ -59,5 +59,5 @@ export default {
       }
     },
   },
-};
-</script>
+});
+</script> -->

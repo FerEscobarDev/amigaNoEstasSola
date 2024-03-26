@@ -1,4 +1,4 @@
-<template>
+<!-- <template>
   <footer class="block py-4">
     <div class="container mx-auto px-4">
       <hr class="mb-4 border-b-1 border-slate-200" />
@@ -58,12 +58,12 @@
     </div>
   </footer>
 </template>
-<script>
-export default {
+<script lang="ts">
+export default defineComponent({
   data() {
     return {
       date: new Date().getFullYear(),
     };
   },
-};
-</script>
+});
+</script> -->

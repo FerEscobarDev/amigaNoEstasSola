@@ -1,11 +1,11 @@
-<template>
+<!-- <template>
   <nav
     class="md:left-0 md:block md:fixed md:top-0 md:bottom-0 md:overflow-y-auto md:flex-row md:flex-nowrap md:overflow-hidden shadow-xl bg-white flex flex-wrap items-center justify-between relative md:w-64 z-10 py-4 px-6"
   >
     <div
       class="md:flex-col md:items-stretch md:min-h-full md:flex-nowrap px-0 flex flex-wrap items-center justify-between w-full mx-auto"
     >
-      <!-- Toggler -->
+       Toggler 
       <button
         class="cursor-pointer text-black opacity-50 md:hidden px-3 py-1 text-xl leading-none bg-transparent rounded border border-solid border-transparent"
         type="button"
@@ -13,14 +13,14 @@
       >
         <i class="fas fa-bars"></i>
       </button>
-      <!-- Brand -->
+       Brand 
       <router-link
         class="md:block text-left md:pb-2 text-slate-600 mr-0 inline-block whitespace-nowrap text-sm uppercase font-bold p-4 px-0"
         to="/"
       >
         Vue Notus
       </router-link>
-      <!-- User -->
+       User 
       <ul class="md:hidden items-center flex flex-wrap list-none">
         <li class="inline-block relative">
           <notification-dropdown />
@@ -29,12 +29,12 @@
           <user-dropdown />
         </li>
       </ul>
-      <!-- Collapse -->
+       Collapse 
       <div
         class="md:flex md:flex-col md:items-stretch md:opacity-100 md:relative md:mt-4 md:shadow-none shadow absolute top-0 left-0 right-0 z-40 overflow-y-auto overflow-x-hidden h-auto items-center flex-1 rounded"
         v-bind:class="collapseShow"
       >
-        <!-- Collapse header -->
+         Collapse header 
         <div
           class="md:min-w-full md:hidden block pb-4 mb-4 border-b border-solid border-slate-200"
         >
@@ -58,7 +58,7 @@
             </div>
           </div>
         </div>
-        <!-- Form -->
+         Form 
         <form class="mt-6 mb-4 md:hidden">
           <div class="mb-3 pt-0">
             <input
@@ -69,15 +69,15 @@
           </div>
         </form>
 
-        <!-- Divider -->
+         Divider 
         <hr class="my-4 md:min-w-full" />
-        <!-- Heading -->
+         Heading 
         <h6
           class="md:min-w-full text-slate-500 text-xs uppercase font-bold block pt-1 pb-4 no-underline"
         >
           Admin Layout Pages
         </h6>
-        <!-- Navigation -->
+         Navigation 
 
         <ul class="md:flex-col md:min-w-full flex flex-col list-none">
           <li class="items-center">
@@ -174,15 +174,15 @@
           </li>
         </ul>
 
-        <!-- Divider -->
+         Divider 
         <hr class="my-4 md:min-w-full" />
-        <!-- Heading -->
+         Heading 
         <h6
           class="md:min-w-full text-slate-500 text-xs uppercase font-bold block pt-1 pb-4 no-underline"
         >
           Auth Layout Pages
         </h6>
-        <!-- Navigation -->
+         Navigation 
 
         <ul class="md:flex-col md:min-w-full flex flex-col list-none md:mb-4">
           <li class="items-center">
@@ -208,15 +208,15 @@
           </li>
         </ul>
 
-        <!-- Divider -->
+         Divider 
         <hr class="my-4 md:min-w-full" />
-        <!-- Heading -->
+         Heading 
         <h6
           class="md:min-w-full text-slate-500 text-xs uppercase font-bold block pt-1 pb-4 no-underline"
         >
           No Layout Pages
         </h6>
-        <!-- Navigation -->
+         Navigation 
 
         <ul class="md:flex-col md:min-w-full flex flex-col list-none md:mb-4">
           <li class="items-center">
@@ -240,15 +240,15 @@
           </li>
         </ul>
 
-        <!-- Divider -->
+         Divider 
         <hr class="my-4 md:min-w-full" />
-        <!-- Heading -->
+         Heading 
         <h6
           class="md:min-w-full text-slate-500 text-xs uppercase font-bold block pt-1 pb-4 no-underline"
         >
           Documentation
         </h6>
-        <!-- Navigation -->
+         Navigation 
         <ul class="md:flex-col md:min-w-full flex flex-col list-none md:mb-4">
           <li class="inline-flex">
             <a
@@ -344,13 +344,12 @@
     </div>
   </nav>
 </template>
-); }
 
-<script>
+<script lang="ts">
 import NotificationDropdown from "@/components/Dropdowns/NotificationDropdown.vue";
 import UserDropdown from "@/components/Dropdowns/UserDropdown.vue";
 
-export default {
+export default defineComponent({
   data() {
     return {
       collapseShow: "hidden",
@@ -365,5 +364,5 @@ export default {
     NotificationDropdown,
     UserDropdown,
   },
-};
-</script>
+});
+</script> -->
