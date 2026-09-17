@@ -1,0 +1,14 @@
+{
+  "name": "Amiga, no estás sola",
+  "short_name": "Amiga",
+  "description": "Grupo de apoyo virtual y gratuito para mujeres, creado por la psicóloga Erika Caro.",
+  "lang": "es",
+  "start_url": "/",
+  "display": "browser",
+  "background_color": "#FAF5EE",
+  "theme_color": "#482C74",
+  "icons": [
+    { "src": "/assets/img/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/assets/img/icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}
