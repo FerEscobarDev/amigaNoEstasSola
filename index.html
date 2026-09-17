@@ -1,13 +1,499 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>Fundación Amiga No Estás Sola</title>
-  </head>
-  <body>
-    <div id="app"></div>
-    <script type="module" src="/src/main.ts"></script>
-  </body>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Amiga, no estás sola | Grupo de apoyo para mujeres · Erika Caro</title>
+<meta name="description" content="Comunidad virtual y gratuita de +380 mujeres en 7 países, creada por la psicóloga Erika Caro. Talleres semanales y apoyo para mujeres que han vivido violencia.">
+<meta name="author" content="Erika Caro · Colectivo Amiga, no estás sola">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+<link rel="canonical" href="https://amiganoestassola.com/">
+<link rel="alternate" hreflang="es" href="https://amiganoestassola.com/">
+<link rel="alternate" hreflang="x-default" href="https://amiganoestassola.com/">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Amiga, no estás sola">
+<meta property="og:locale" content="es_CO">
+<meta property="og:url" content="https://amiganoestassola.com/">
+<meta property="og:title" content="Amiga, no estás sola · Grupo de apoyo virtual y gratuito para mujeres">
+<meta property="og:description" content="Una comunidad de +380 mujeres en siete países, creada por la psicóloga Erika Caro, que se acompañan, aprenden y se fortalecen juntas.">
+<meta property="og:image" content="https://amiganoestassola.com/assets/img/amiga-no-estas-sola-og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Amiga, no estás sola: enciende tu fuego, emerge poderosa. Grupo de apoyo para mujeres creado por Erika Caro.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Amiga, no estás sola · Grupo de apoyo para mujeres">
+<meta name="twitter:description" content="Comunidad virtual y gratuita de +380 mujeres en 7 países, creada por la psicóloga Erika Caro.">
+<meta name="twitter:image" content="https://amiganoestassola.com/assets/img/amiga-no-estas-sola-og.jpg">
+
+<meta name="theme-color" content="#482C74">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="icon" href="favicon.ico" sizes="32x32">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="manifest" href="site.webmanifest">
+
+<link rel="preload" href="assets/fonts/gabarito-latin-var.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/atkinson-hyperlegible-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="assets/css/styles.css">
+<script>document.documentElement.classList.add('js')</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://amiganoestassola.com/#organizacion",
+      "name": "Amiga, no estás sola",
+      "alternateName": ["Amiga No Estás Sola", "Colectivo Amiga, no estás sola", "Amiga no estas sola"],
+      "url": "https://amiganoestassola.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://amiganoestassola.com/assets/img/amiga-no-estas-sola-logo-512.png",
+        "width": 512,
+        "height": 512
+      },
+      "image": "https://amiganoestassola.com/assets/img/amiga-no-estas-sola-og.jpg",
+      "slogan": "Enciende tu fuego, emerge poderosa",
+      "description": "Grupo de apoyo 100 % virtual y gratuito para mujeres, creado por la psicóloga Erika Caro. Acompaña a mujeres que han vivido violencia de pareja y otras formas de violencia, e impulsa su educación, su emprendimiento y su salud mental.",
+      "foundingDate": "2022-01",
+      "founder": { "@id": "https://amiganoestassola.com/erika-caro/#erika-caro" },
+      "areaServed": [
+        { "@type": "Country", "name": "Colombia" },
+        { "@type": "Country", "name": "México" },
+        { "@type": "Country", "name": "Ecuador" },
+        { "@type": "Country", "name": "Perú" },
+        { "@type": "Country", "name": "Argentina" },
+        { "@type": "Country", "name": "Venezuela" },
+        { "@type": "Country", "name": "Chile" }
+      ],
+      "knowsAbout": ["Grupo de apoyo para mujeres", "Violencia de pareja", "Empoderamiento femenino", "Salud mental", "Amor propio", "Dependencia emocional", "Emprendimiento femenino"],
+      "knowsLanguage": "es",
+      "sameAs": ["https://open.spotify.com/show/37iqAHgPWvJIBAVW25zMFo"]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://amiganoestassola.com/erika-caro/#erika-caro",
+      "name": "Erika Caro",
+      "jobTitle": "Psicóloga",
+      "description": "Psicóloga con especialización en Neuropsicología y Educación. Fundadora y líder del grupo de apoyo Amiga, no estás sola.",
+      "url": "https://amiganoestassola.com/erika-caro/",
+      "image": "https://amiganoestassola.com/assets/img/erika-caro-psicologa.jpg",
+      "gender": "https://schema.org/Female",
+      "knowsLanguage": "es",
+      "knowsAbout": ["Psicología", "Neuropsicología", "Terapia cognitivo conductual", "Terapia de aceptación y compromiso (ACT)", "Terapia dialéctico conductual (DBT)", "Ansiedad", "Depresión", "Dependencia emocional", "Trastorno de estrés postraumático", "Empoderamiento femenino"],
+      "worksFor": { "@id": "https://amiganoestassola.com/#organizacion" }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://amiganoestassola.com/#sitio",
+      "url": "https://amiganoestassola.com/",
+      "name": "Amiga, no estás sola",
+      "inLanguage": "es",
+      "publisher": { "@id": "https://amiganoestassola.com/#organizacion" }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://amiganoestassola.com/#pagina",
+      "url": "https://amiganoestassola.com/",
+      "name": "Amiga, no estás sola | Grupo de apoyo para mujeres · Erika Caro",
+      "description": "Comunidad virtual y gratuita de +380 mujeres en 7 países, creada por la psicóloga Erika Caro.",
+      "inLanguage": "es",
+      "isPartOf": { "@id": "https://amiganoestassola.com/#sitio" },
+      "about": { "@id": "https://amiganoestassola.com/#organizacion" },
+      "primaryImageOfPage": "https://amiganoestassola.com/assets/img/amiga-no-estas-sola-og.jpg"
+    },
+    {
+      "@type": "PodcastSeries",
+      "@id": "https://amiganoestassola.com/#podcast",
+      "name": "Amiga, no estás sola",
+      "description": "Episodios sobre amor propio, dependencia emocional y cómo volver a confiar en ti.",
+      "url": "https://open.spotify.com/show/37iqAHgPWvJIBAVW25zMFo",
+      "inLanguage": "es",
+      "publisher": { "@id": "https://amiganoestassola.com/#organizacion" }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://amiganoestassola.com/#preguntas",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "¿Qué es Amiga, no estás sola?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Es un grupo de apoyo 100 % virtual para mujeres, creado en enero de 2022 por la psicóloga Erika Caro. Acompaña a mujeres que han vivido violencia de pareja y otras formas de violencia, e impulsa su educación, su emprendimiento y su salud mental. Hoy es una comunidad de +380 mujeres en siete países de Latinoamérica." }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Quién es Erika Caro?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Erika Caro es psicóloga con especialización en Neuropsicología y Educación, y la fundadora del grupo de apoyo Amiga, no estás sola. Trabaja desde el enfoque cognitivo conductual y técnicas de tercera generación como ACT y DBT, acompañando procesos de ansiedad, depresión, desregulación emocional, dependencia emocional y estrés postraumático." }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cómo me uno al grupo de apoyo?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Entras por el enlace del grupo de WhatsApp que aparece en este sitio. Puedes unirte cuando quieras, desde tu teléfono o computador, y participar a tu ritmo." }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Tiene algún costo?",
+          "acceptedAnswer": { "@type": "Answer", "text": "No. Los talleres son virtuales, gratuitos y duran una hora cada semana. Los dictan profesionales voluntarios que donan su tiempo." }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Desde qué países puedo participar?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Desde cualquier país. La comunidad es 100 % virtual y hoy reúne a mujeres de Colombia, México, Ecuador, Perú, Argentina, Venezuela y Chile." }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Mi participación es confidencial?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Sí. Tu participación es confidencial. Es un espacio seguro para hablar de lo vivido, con escucha sin juicio y respeto por cada historia." }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Qué temas se trabajan en los talleres y en el podcast?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Temas clave del empoderamiento femenino: amor propio, dependencia emocional, salud mental y bienestar emocional, educación y emprendimiento femenino. El podcast lleva esas conversaciones más allá del grupo y está disponible en Spotify." }
+        },
+        {
+          "@type": "Question",
+          "name": "¿El grupo reemplaza la terapia psicológica o una línea de emergencia?",
+          "acceptedAnswer": { "@type": "Answer", "text": "No. El grupo es un espacio de acompañamiento entre mujeres y no reemplaza la atención en salud mental ni los servicios de emergencia. Si estás en peligro en Colombia, llama a la línea 155 (orientación a mujeres, gratuita, 24 horas) o al 123 (emergencias). En otros países, llama al número de emergencias local." }
+        }
+      ]
+    }
+  ]
+}
+</script>
+</head>
+<body>
+<a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+<header class="site-header">
+  <nav class="nav" aria-label="Principal">
+    <a class="brand" href="#inicio">
+      <img src="assets/img/amiga-no-estas-sola-logo.svg" alt="" width="48" height="48">
+      <span>Amiga, no estás sola</span>
+    </a>
+    <div class="nav__right">
+      <ul class="nav__list" id="menu">
+        <li><a href="#nosotras">Quiénes somos</a></li>
+        <li><a href="#trayectoria">Trayectoria</a></li>
+        <li><a href="#podcast">Podcast</a></li>
+        <li><a href="#fundadora">Fundadora</a></li>
+        <li><a href="#ayuda">Líneas de ayuda</a></li>
+      </ul>
+      <a class="btn btn--accent btn--sm" href="https://chat.whatsapp.com/Lv2mVk0UO7rAYDpiZpPIff?s=cl&amp;p=a&amp;mlu=4&amp;ilr=4" target="_blank" rel="noopener">Únete</a>
+      <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="menu" aria-label="Abrir menú">
+        <svg class="icon icon--open" aria-hidden="true"><use href="assets/img/icons.svg#menu"/></svg>
+        <svg class="icon icon--close" aria-hidden="true"><use href="assets/img/icons.svg#x"/></svg>
+      </button>
+    </div>
+  </nav>
+</header>
+
+<main id="contenido">
+
+  <section id="inicio" class="hero">
+    <span class="hero__halo" role="presentation"></span>
+    <div class="container hero__grid">
+      <div class="hero__copy">
+        <span class="badge badge--cream"><svg class="icon" aria-hidden="true"><use href="assets/img/icons.svg#flame"/></svg>Comunidad 100 % virtual</span>
+        <h1><span class="eyebrow hero__kicker">Amiga, no estás sola · Grupo de apoyo para mujeres</span>Enciende tu fuego, emerge poderosa</h1>
+        <span class="flame-rule" role="presentation"></span>
+        <p class="hero__lead">Una comunidad de +380 mujeres en siete países que se acompañan, aprenden y se fortalecen juntas.</p>
+        <div class="btn-row">
+          <a class="btn btn--accent btn--lg" href="https://chat.whatsapp.com/Lv2mVk0UO7rAYDpiZpPIff?s=cl&amp;p=a&amp;mlu=4&amp;ilr=4" target="_blank" rel="noopener"><svg class="icon" aria-hidden="true"><use href="assets/img/icons.svg#message-circle"/></svg>Únete a la comunidad</a>
+          <a class="btn btn--secondary btn--lg" href="#ayuda"><svg class="icon" aria-hidden="true"><use href="assets/img/icons.svg#phone"/></svg>Necesito ayuda ahora</a>
+        </div>
+        <p class="caption">El enlace abre un grupo de WhatsApp. Tu participación es confidencial.</p>
+      </div>
+      <div class="hero__emblem">
+        <span>
+          <img src="assets/img/amiga-no-estas-sola-logo.svg" width="440" height="440" fetchpriority="high" alt="Emblema de Amiga, no estás sola: una mujer y un ave fénix rodeadas de fuego, con el lema «Enciende tu fuego, emerge poderosa»">
+        </span>
+      </div>
+    </div>
+    <div class="container hero__stats">
+      <div class="card"><div class="stat"><svg class="icon" aria-hidden="true"><use href="assets/img/icons.svg#users"/></svg><span class="stat__value">+380</span><span class="stat__label">mujeres forman parte de la comunidad</span></div></div>
+      <div class="card card--lilac"><div class="stat"><svg class="icon" aria-hidden="true"><use href="assets/img/icons.svg#globe"/></svg><span class="stat__value">7</span><span class="stat__label">países de Latinoamérica</span></div></div>
+      <div class="card card--cream"><div class="stat"><svg class="icon" aria-hidden="true"><use href="assets/img/icons.svg#calendar"/></svg><span class="stat__value">4+</span><span class="stat__label">años acompañando mujeres, desde enero de 2022</span></div></div>
+      <div class="card"><div class="stat"><svg class="icon" aria-hidden="true"><use href="assets/img/icons.svg#flame"/></svg><span class="stat__value">6</span><span class="stat__label">mujeres dieron inicio a la comunidad</span></div></div>
+    </div>
+  </section>
+
+  <section id="nosotras" class="section section--cream">
+    <div class="container split" style="align-items:start">
+      <header class="section-heading">
+        <span class="flame-rule" role="presentation"></span>
+        <span class="eyebrow">Quiénes somos</span>
+        <h2>Un espacio seguro donde ninguna camina sola</h2>
+      </header>
+      <div class="prose">
+        <p class="lead">Amiga No Estás Sola es un grupo de apoyo creado por la <a href="erika-caro/">psicóloga Erika Caro</a>. Acompaña a mujeres que han vivido violencia de pareja y otras formas de violencia, e impulsa su educación, su emprendimiento y su salud mental.</p>
+        <p>Nacimos como un grupo de apoyo 100 % virtual y hoy somos una comunidad de +380 mujeres de Colombia, México, Ecuador, Perú, Argentina, Venezuela y Chile. Aquí cada integrante encuentra un espacio seguro para expresar lo que siente, aprender de profesionales que donan su tiempo y contar con el apoyo de otras mujeres.</p>
+        <p class="accent">Creemos que cada mujer lleva dentro un fuego capaz de transformar su vida, y nuestro trabajo como colectivo es acompañarla mientras lo enciende.</p>
+      </div>
+    </div>
+    <div class="container grid-cards" style="margin-top:clamp(40px,5vw,72px)">
+      <article class="card value-card">
+        <span class="value-card__icon"><svg class="icon" aria-hidden="true"><use href="assets/img/icons.svg#shield-check"/></svg></span>
+        <h3>Escucha sin juicio</h3>
+        <p>Un lugar para hablar de lo vivido, sentirse acompañada y comprobar que no estás sola.</p>
+      </article>
+      <article class="card value-card">
+        <span class="value-card__icon"><svg class="icon" aria-hidden="true"><use href="assets/img/icons.svg#graduation-cap"/></svg></span>
+        <h3>Formación cada semana</h3>
+        <p>Talleres virtuales dictados por profesionales voluntarios que donan una hora de su tiempo.</p>
+      </article>
+      <article class="card value-card">
+        <span class="value-card__icon"><svg class="icon" aria-hidden="true"><use href="assets/img/icons.svg#sparkles"/></svg></span>
+        <h3>Emprender y crecer</h3>
+        <p>Herramientas para el emprendimiento femenino como camino de crecimiento y empoderamiento.</p>
+      </article>
+    </div>
+  </section>
+
+  <section id="trayectoria" class="section section--deep">
+    <div class="container stack" style="gap:clamp(32px,4vw,56px)">
+      <header class="section-heading">
+        <span class="flame-rule" role="presentation"></span>
+        <span class="eyebrow">Nuestra trayectoria</span>
+        <h2>De seis mujeres a una red sin fronteras</h2>
+      </header>
+      <ol class="timeline">
+        <li class="timeline__item">
+          <span class="timeline__year">2022</span><span class="timeline__rail" role="presentation"></span>
+          <div class="timeline__body">
+            <h3>El comienzo</h3>
+            <p>En enero, Erika Caro creó un grupo de WhatsApp con seis mujeres. La idea nació de una necesidad que veía en familiares y amigas: tener dónde expresar lo que sentían frente a la violencia de pareja y otras violencias que habían vivido. Así empezaron los talleres virtuales de una hora cada semana.</p>
+          </div>
+        </li>
+        <li class="timeline__item">
+          <span class="timeline__year">2023</span><span class="timeline__rail" role="presentation"></span>
+          <div class="timeline__body">
+            <h3>El crecimiento</h3>
+            <p>El grupo creció y, para ofrecer un acompañamiento más completo, se sumaron psicólogas, psicólogos y profesionales de otras áreas. Cada una dona una hora de su tiempo para enseñar temas clave del empoderamiento femenino.</p>
+          </div>
+        </li>
+        <li class="timeline__item">
+          <span class="timeline__year">2024</span><span class="timeline__rail" role="presentation"></span>
+          <div class="timeline__body">
+            <h3>Una comunidad sin fronteras</h3>
+            <p>Superamos las 240 integrantes, con mujeres de siete países de Latinoamérica.</p>
+          </div>
+        </li>
+        <li class="timeline__item">
+          <span class="timeline__year">2026</span><span class="timeline__rail" role="presentation"></span>
+          <div class="timeline__body">
+            <h3>Hoy</h3>
+            <p>Somos +380. Lo que empezó como un grupo de seis mujeres es hoy una red que se acompaña, aprende y crece unida.</p>
+          </div>
+        </li>
+      </ol>
+      <div class="grid-cards" style="grid-template-columns:repeat(auto-fit,minmax(min(280px,100%),1fr))">
+        <div class="card card--deep">
+          <h3>Misión</h3>
+          <p>Empoderar a las mujeres mediante el acceso a educación, emprendimiento y salud mental, en un espacio seguro donde puedan aprender, crecer y fortalecerse emocionalmente.</p>
+        </div>
+        <div class="card card--deep">
+          <h3>Visión</h3>
+          <p>Ser líderes en la transformación positiva de la vida de las mujeres: una red sólida de mujeres empoderadas que inspiren y apoyen a otras, con acceso equitativo a educación, emprendimiento y salud mental.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="valores" class="section section--page">
+    <div class="container stack" style="gap:clamp(32px,4vw,56px)">
+      <header class="section-heading section-heading--center">
+        <span class="flame-rule" role="presentation"></span>
+        <span class="eyebrow">Valores</span>
+        <h2>Lo que sostiene cada conversación</h2>
+      </header>
+      <div class="grid-cards">
+        <article class="card value-card">
+          <span class="value-card__icon"><svg class="icon" aria-hidden="true"><use href="assets/img/icons.svg#heart-handshake"/></svg></span>
+          <h3>Empatía</h3>
+          <p>Comprender y sentir con sinceridad las experiencias de las mujeres. Escuchamos sin juzgar y acompañamos cada historia con cuidado.</p>
+        </article>
+        <article class="card value-card">
+          <span class="value-card__icon"><svg class="icon" aria-hidden="true"><use href="assets/img/icons.svg#flame"/></svg></span>
+          <h3>Empoderamiento</h3>
+          <p>Con cada taller y cada conversación buscamos que las mujeres reconozcan su valor y confíen en su capacidad de transformar su vida.</p>
+        </article>
+        <article class="card value-card">
+          <span class="value-card__icon"><svg class="icon" aria-hidden="true"><use href="assets/img/icons.svg#users"/></svg></span>
+          <h3>Respeto</h3>
+          <p>Valoramos la diversidad y cuidamos un espacio de dignidad donde caben mujeres de distintos países e historias.</p>
+        </article>
+      </div>
+      <div class="stack" style="gap:var(--space-4)">
+        <h3 style="font-size:var(--text-title-md)">Nuestros objetivos</h3>
+        <ul class="check-list check-list--two">
+          <li><svg class="icon" aria-hidden="true"><use href="assets/img/icons.svg#check"/></svg><span>Ofrecer un espacio seguro de escucha para mujeres que han vivido violencia de pareja u otras formas de violencia.</span></li>
+          <li><svg class="icon" aria-hidden="true"><use href="assets/img/icons.svg#check"/></svg><span>Fomentar el emprendimiento femenino como camino de crecimiento y empoderamiento.</span></li>
+          <li><svg class="icon" aria-hidden="true"><use href="assets/img/icons.svg#check"/></svg><span>Brindar formación continua con talleres virtuales dictados por profesionales voluntarios.</span></li>
+          <li><svg class="icon" aria-hidden="true"><use href="assets/img/icons.svg#check"/></svg><span>Tejer una red de mujeres que se inspiren y se apoyen entre sí, sin importar dónde vivan.</span></li>
+          <li><svg class="icon" aria-hidden="true"><use href="assets/img/icons.svg#check"/></svg><span>Promover la salud mental y el bienestar emocional de cada integrante.</span></li>
+          <li><svg class="icon" aria-hidden="true"><use href="assets/img/icons.svg#check"/></svg><span>Crear alianzas estratégicas que amplíen las oportunidades educativas y de bienestar.</span></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="fundadora" class="section section--lilac">
+    <div class="container split" style="gap:clamp(32px,5vw,72px);align-items:center">
+      <div class="portrait">
+        <picture>
+          <source type="image/webp" srcset="assets/img/erika-caro-psicologa-420.webp 420w, assets/img/erika-caro-psicologa.webp 692w" sizes="(max-width: 460px) calc(100vw - 40px), 420px">
+          <img src="assets/img/erika-caro-psicologa.jpg" width="692" height="865" loading="lazy" decoding="async" alt="Erika Caro, psicóloga y fundadora del grupo de apoyo Amiga, no estás sola">
+        </picture>
+      </div>
+      <div class="founder">
+        <span class="badge badge--amber">LA FUNDADORA</span>
+        <h2>Erika Caro</h2>
+        <p class="lead accent" style="line-height:var(--leading-normal)">Psicóloga con especialización en Neuropsicología y Educación</p>
+        <p>Mi trayectoria se ha centrado en el tratamiento de condiciones como la ansiedad, la depresión, la desregulación emocional, la dependencia emocional y el trastorno de estrés postraumático.</p>
+        <p>Trabajo desde el enfoque Cognitivo Conductual y técnicas de tercera generación (como ACT y DBT), brindando una atención empática, humanizada y personalizada. Para mí, cada persona es única y merece un acompañamiento adaptado a sus necesidades.</p>
+        <p>Además, lidero el grupo de apoyo Amiga, no estás sola, un espacio seguro donde promovemos el empoderamiento femenino a través del amor propio y la comprensión mutua.</p>
+        <div class="badge-row">
+          <span class="badge badge--outline"><svg class="icon" aria-hidden="true"><use href="assets/img/icons.svg#brain"/></svg>Salud mental</span>
+          <span class="badge badge--outline"><svg class="icon" aria-hidden="true"><use href="assets/img/icons.svg#graduation-cap"/></svg>Educación</span>
+          <span class="badge badge--outline"><svg class="icon" aria-hidden="true"><use href="assets/img/icons.svg#heart-handshake"/></svg>Acompañamiento</span>
+        </div>
+        <a class="btn btn--secondary" href="erika-caro/">Conoce a Erika Caro<svg class="icon" aria-hidden="true"><use href="assets/img/icons.svg#arrow-right"/></svg></a>
+      </div>
+    </div>
+  </section>
+
+  <section id="podcast" class="section section--cream">
+    <div class="container split" style="gap:clamp(32px,5vw,64px);align-items:center">
+      <div class="stack" style="gap:var(--space-5);align-items:flex-start">
+        <header class="section-heading">
+          <span class="flame-rule" role="presentation"></span>
+          <span class="eyebrow">Podcast</span>
+          <h2>Escúchanos donde estés</h2>
+        </header>
+        <p style="max-width:var(--measure)">El podcast de Amiga, no estás sola lleva las conversaciones del colectivo más allá del grupo: episodios sobre amor propio, dependencia emocional y cómo volver a confiar en ti.</p>
+        <a class="btn btn--secondary btn--lg" href="https://open.spotify.com/show/37iqAHgPWvJIBAVW25zMFo" target="_blank" rel="noopener"><svg class="icon" aria-hidden="true"><use href="assets/img/icons.svg#headphones"/></svg>Abrir en Spotify</a>
+      </div>
+      <iframe class="podcast-embed" src="https://open.spotify.com/embed/show/37iqAHgPWvJIBAVW25zMFo?utm_source=generator" title="Podcast Amiga, no estás sola en Spotify" loading="lazy" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+    </div>
+  </section>
+
+  <section id="preguntas" class="section section--page">
+    <div class="container stack" style="gap:clamp(32px,4vw,56px)">
+      <header class="section-heading section-heading--center">
+        <span class="flame-rule" role="presentation"></span>
+        <span class="eyebrow">Preguntas frecuentes</span>
+        <h2>Antes de unirte, resolvemos tus dudas</h2>
+      </header>
+      <div class="faq">
+        <details open>
+          <summary><h3>¿Qué es Amiga, no estás sola?</h3><svg class="icon" aria-hidden="true"><use href="assets/img/icons.svg#chevron-down"/></svg></summary>
+          <div class="faq__answer"><p>Es un grupo de apoyo 100 % virtual para mujeres, creado en enero de 2022 por la psicóloga Erika Caro. Acompaña a mujeres que han vivido violencia de pareja y otras formas de violencia, e impulsa su educación, su emprendimiento y su salud mental. Hoy somos una comunidad de +380 mujeres en siete países de Latinoamérica.</p></div>
+        </details>
+        <details>
+          <summary><h3>¿Quién es Erika Caro?</h3><svg class="icon" aria-hidden="true"><use href="assets/img/icons.svg#chevron-down"/></svg></summary>
+          <div class="faq__answer"><p>Erika Caro es psicóloga con especialización en Neuropsicología y Educación, y la fundadora de Amiga, no estás sola. Trabaja desde el enfoque cognitivo conductual y técnicas de tercera generación como ACT y DBT, acompañando procesos de ansiedad, depresión, desregulación emocional, dependencia emocional y estrés postraumático. <a href="erika-caro/">Conoce más sobre Erika Caro</a>.</p></div>
+        </details>
+        <details>
+          <summary><h3>¿Cómo me uno al grupo de apoyo?</h3><svg class="icon" aria-hidden="true"><use href="assets/img/icons.svg#chevron-down"/></svg></summary>
+          <div class="faq__answer"><p>Entras por el <a href="#unete">enlace del grupo de WhatsApp</a>. Puedes unirte cuando quieras, desde tu teléfono o computador, y participar a tu ritmo.</p></div>
+        </details>
+        <details>
+          <summary><h3>¿Tiene algún costo?</h3><svg class="icon" aria-hidden="true"><use href="assets/img/icons.svg#chevron-down"/></svg></summary>
+          <div class="faq__answer"><p>No. Los talleres son virtuales, gratuitos y duran una hora cada semana. Los dictan profesionales voluntarios que donan su tiempo.</p></div>
+        </details>
+        <details>
+          <summary><h3>¿Desde qué países puedo participar?</h3><svg class="icon" aria-hidden="true"><use href="assets/img/icons.svg#chevron-down"/></svg></summary>
+          <div class="faq__answer"><p>Desde cualquier país. La comunidad es 100 % virtual y hoy reúne a mujeres de Colombia, México, Ecuador, Perú, Argentina, Venezuela y Chile.</p></div>
+        </details>
+        <details>
+          <summary><h3>¿Mi participación es confidencial?</h3><svg class="icon" aria-hidden="true"><use href="assets/img/icons.svg#chevron-down"/></svg></summary>
+          <div class="faq__answer"><p>Sí. Tu participación es confidencial. Este es un espacio seguro para hablar de lo vivido, con escucha sin juicio y respeto por cada historia.</p></div>
+        </details>
+        <details>
+          <summary><h3>¿Qué temas se trabajan en los talleres y en el podcast?</h3><svg class="icon" aria-hidden="true"><use href="assets/img/icons.svg#chevron-down"/></svg></summary>
+          <div class="faq__answer"><p>Temas clave del empoderamiento femenino: amor propio, dependencia emocional, salud mental y bienestar emocional, educación y emprendimiento femenino. El <a href="#podcast">podcast</a> lleva esas conversaciones más allá del grupo y está disponible en Spotify.</p></div>
+        </details>
+        <details>
+          <summary><h3>¿El grupo reemplaza la terapia psicológica o una línea de emergencia?</h3><svg class="icon" aria-hidden="true"><use href="assets/img/icons.svg#chevron-down"/></svg></summary>
+          <div class="faq__answer"><p>No. El grupo es un espacio de acompañamiento entre mujeres y no reemplaza la atención en salud mental ni los servicios de emergencia. Si estás en peligro en Colombia, llama a la línea 155 (orientación a mujeres, gratuita, 24 horas) o al 123 (emergencias). En otros países, llama al número de emergencias local. Aquí están las <a href="#ayuda">líneas de ayuda</a>.</p></div>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <section id="unete" class="section section--page section--flush-top">
+    <div class="container--narrow">
+      <div class="card card--flame">
+        <div class="join">
+          <img src="assets/img/amiga-no-estas-sola-isotipo.svg" width="148" height="148" loading="lazy" alt="">
+          <h2>Únete al grupo de WhatsApp</h2>
+          <p class="lead">Los talleres son virtuales, gratuitos y de una hora cada semana. Entras cuando quieras, participas a tu ritmo y encuentras a otras mujeres que entienden lo que vives.</p>
+          <div class="btn-row">
+            <a class="btn btn--primary btn--lg" href="https://chat.whatsapp.com/Lv2mVk0UO7rAYDpiZpPIff?s=cl&amp;p=a&amp;mlu=4&amp;ilr=4" target="_blank" rel="noopener"><svg class="icon" aria-hidden="true"><use href="assets/img/icons.svg#message-circle"/></svg>Entrar al grupo</a>
+            <span class="join__hint">Abre WhatsApp en tu teléfono o computador.</span>
+          </div>
+          <ul class="check-list check-list--inline">
+            <li><svg class="icon" aria-hidden="true"><use href="assets/img/icons.svg#check"/></svg>Sin costo</li>
+            <li><svg class="icon" aria-hidden="true"><use href="assets/img/icons.svg#check"/></svg>Desde cualquier país</li>
+            <li><svg class="icon" aria-hidden="true"><use href="assets/img/icons.svg#check"/></svg>Confidencial</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="ayuda" class="section section--page section--flush-top">
+    <div class="container--narrow stack" style="gap:var(--space-8)">
+      <aside class="helpline" aria-labelledby="ayuda-titulo">
+        <div class="helpline__title">
+          <svg class="icon" aria-hidden="true"><use href="assets/img/icons.svg#phone"/></svg>
+          <h2 id="ayuda-titulo">Si estás en peligro, pide ayuda ahora</h2>
+        </div>
+        <ul>
+          <li><a class="helpline__number" href="tel:155">155</a><span class="helpline__label">Orientación a mujeres víctimas de violencia · 24 horas, gratuita</span><span class="caption">Colombia</span></li>
+          <li><a class="helpline__number" href="tel:123">123</a><span class="helpline__label">Emergencias</span><span class="caption">Colombia</span></li>
+        </ul>
+        <p class="caption">Las líneas de los demás países de la comunidad están pendientes de confirmar. Si estás en riesgo inmediato, llama al 123 en Colombia o al número de emergencias de tu país.</p>
+      </aside>
+      <figure class="quote-card">
+        <svg class="icon" aria-hidden="true"><use href="assets/img/icons.svg#quote"/></svg>
+        <blockquote>«Si estás pasando por un momento difícil, recuerda: amiga, no estás sola.»</blockquote>
+      </figure>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="site-footer__grid">
+    <div class="site-footer__brand">
+      <img src="assets/img/amiga-no-estas-sola-logo-claro.svg" width="72" height="72" loading="lazy" alt="Amiga, no estás sola">
+      <p class="site-footer__tagline">Amiga, no estás sola.</p>
+    </div>
+    <nav class="site-footer__col" aria-label="Comunidad">
+      <h2>Comunidad</h2>
+      <a href="https://chat.whatsapp.com/Lv2mVk0UO7rAYDpiZpPIff?s=cl&amp;p=a&amp;mlu=4&amp;ilr=4" target="_blank" rel="noopener">Únete al grupo de WhatsApp</a>
+      <a href="#nosotras">Quiénes somos</a>
+      <a href="#trayectoria">Trayectoria</a>
+      <a href="https://open.spotify.com/show/37iqAHgPWvJIBAVW25zMFo" target="_blank" rel="noopener">Podcast en Spotify</a>
+      <a href="#preguntas">Preguntas frecuentes</a>
+    </nav>
+    <nav class="site-footer__col" aria-label="El colectivo">
+      <h2>El colectivo</h2>
+      <a href="erika-caro/">Erika Caro, fundadora</a>
+      <a href="#trayectoria">Misión y visión</a>
+      <a href="#valores">Valores y objetivos</a>
+    </nav>
+    <nav class="site-footer__col" aria-label="Ayuda">
+      <h2>Ayuda</h2>
+      <a href="tel:155">Línea 155</a>
+      <a href="tel:123">Emergencias 123</a>
+    </nav>
+  </div>
+  <p class="site-footer__legal">Colectivo Amiga, no estás sola · Grupo de apoyo virtual para mujeres. Este sitio no reemplaza la atención en salud mental ni los servicios de emergencia.</p>
+</footer>
+
+<script src="assets/js/main.js" defer></script>
+</body>
 </html>
